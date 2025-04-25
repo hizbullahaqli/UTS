@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teknik Geomatika UPN “Veteran” Yogyakarta</title>
+
+  <!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  #map {
+    height: 500px;
+    width: 100%;
+  }
+</style>
+<body>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* penyesuaian warna agar sama persis */
+    :root{
+      --kuning-brand:#fff200;   /* header & footer */
+      --abu-sidebar:#d4d4d4;    /* sidebar kiri   */
+    }
+    header, footer{background:var(--kuning-brand);}
+    .sidebar{background:var(--abu-sidebar);}
+    footer{font-weight:700;}
+  </style>
+</head>
+
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  #map {
+    height: 500px;
+    width: 100%;
+  }
+</style>
+
+
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- HEADER -->
+  <header class="py-3 text-center">
+    <h1 class="fw-bold mb-0">Teknik Geomatika UPN “Veteran” Yogyakarta</h1>
+  </header>
+ 
+
+
+  <!-- MAIN -->
+  <main class="container-fluid flex-grow-1">
+    <div class="row g-0"> <!-- hilangkan celah gutter -->
+
+      <!-- SIDEBAR KIRI -->
+      <!-- SIDEBAR KIRI -->
+<aside class="col-12 col-md-3 sidebar d-flex flex-column justify-content-center p-4">
+    <nav class="nav flex-column fw-bold lh-lg">
+      <a class="nav-link text-dark px-0" href="terestris.html">KBK Terestris</a>
+      <a class="nav-link text-dark px-0" href="sig.html">KBK Sistem Informasi Geografis</a>
+      <a class="nav-link text-dark px-0" href="fotogrametri.html">KBK Fotogrametri</a>
+      <a class="nav-link text-dark px-0" href="pj.html">KBK Penginderaan Jauh</a>
+    </nav>
+  </aside>
+
+      <!-- KONTEN TENGAH -->
+      <style>
+        .text-justify{
+          text-align: justify;        /* rata kanan‑kiri */
+          text-justify: inter-word;   /* spasi merata, opsional */
+        }
+        
+      </style>
+      
+      <section class="col-12 col-md-6 p-4">
+        <p class="text-justify">Salah satu mata kuliah yang termasuk dalam KBK Sistem Informasi Geografis (SIG) adalah SIG Berbasis Internet. Pada mata kuliah ini mahasiswa mempelajari pengaplikasian SIG dengan berbasis pada platform internet. Mahasiswa mempelajari konsep kerja internet, proses <em>request</em> dan <em>respond</em> oleh <em>user</em> dan <em>client</em>, serta pembangunan website itu sendiri.</p>
+        <p class="text-justify">Memahami HTML dan CSS merupakan langkah selanjutnya bagi mahasiswa yang membuat halaman website. Kali ini, salah satu tugas adalah membangun tampilan halaman web sederhana ini. Selanjutnya halaman sederhana ini dikembangkan kembali dengan mengaplikasikan penggunaan Bootstrap.</p>
+      </section>
+
+      <!-- GAMBAR KANAN -->
+      
+      <figure class="col-12 col-md-3 d-flex align-items-center justify-content-center py-1">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.0D2NLtPVN1_-njgTTapXiQAAAA?pid=ImgDet&w=159&h=104&c=5"
+             alt="HTTP illustration" class="img-fluid shadow">
+      </figure>
+    </div>
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+  <!-- NAVBAR di‑inject oleh JS -->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark bg-dark"></nav>
+
+  <header class="py-3 text-center">
+    <h1 class="display-6 fw-bold">Jenis & Contoh Peta</h1>
+    <p class="lead mb-0">Menjelajahi keragaman peta berdasarkan bentuk & tujuan</p>
+  </header>
+
+  <main class="container my-5">
+    <!-- PENJELASAN -->
+    <section class="mb-5">
+      <h2 class="h4 fw-bold mb-3">1. Peta Statis</h2>
+      <p class="text-justify">
+        Peta statis adalah peta yang menampilkan kondisi geografis pada satu titik waktu saja dan tampilannya tidak berubah, tidak bergerak, dan tidak bisa diklik. Ukurannya relatif ringan sehingga cepat dimuat, mudah dicetak, serta andal untuk arsip jangka panjang. Namun, karena informasinya terkunci, peta statis kurang cocok bila kita ingin menunjukkan perubahan—seperti curah hujan bulanan. Sebab setiap pembaruan data mengharuskan pembuatan peta baru.
+      </p>
+      <div class="text-center">
+        <img src="https://www.researchgate.net/publication/362237410/figure/fig1/AS:1183608651939840@1659205701080/Gambar-5-Peta-Kontur-Sebaran-Nilai-Potensial-Arah-Pola-Aliran-yang-di-overlay-dengan.png" alt="Peta Topografi Yogyakarta" class="img-fluid shadow mb-4">
+        <figcaption class="small text-muted">Gambar 1. Peta Persebaran Potensial dan Elevasi Kelapa Sawit PT. Mega Utama Tani </figcaption>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="h4 fw-bold mb-3">2. Peta Dinamis</h2>
+      <p class="text-justify">
+        Peta dinamis adalah jenis peta digital yang menyajikan informasi berubah secara otomatis seiring waktu, tanpa perlu interaksi langsung dari pengguna. Berbeda dengan peta interaktif yang menuntut klik atau zoom dari pengguna, peta dinamis biasanya menampilkan Pergerakan objek (seperti kendaraan, orang, cuaca)
+,Perubahan data secara real-time atau periodik (suhu harian, polusi udara, arus lalu lintas), Animasi alur waktu (timeline) untuk menunjukkan perkembangan atau pergeseran Dengan kata lain, peta dinamis cocok untuk memvisualisasikan data temporal (berbasis waktu) secara otomatis.
+      </p>
+      <div class="text-center">
+        <img src="https://geohepi.wordpress.com/wp-content/uploads/2020/10/a-asf.jpg?w=661" alt= "" class="img-fluid shadow mb-4">
+        <figcaption class="small text-muted">Gambar 2. peta kepadatan Penduduk Indonesia 2013</figcaption>
+      </div>
+    </section>
+  </main>
+
+<!-- NAVBAR di‑inject oleh JS -->
+<nav id="mainNav" class="navbar navbar-expand-lg navbar-dark bg-dark"></nav>
+
+<header class="py-3 text-center">
+  <h1 class="display-6 fw-bold">Peta Interaktif</h1>
+  <p class="lead mb-0">Menjelajahi keragaman peta berdasarkan bentuk & tujuan</p>
+</header>
+
+    <p class="text-justify">
+      Peta interaktif adalah sebuah representasi visual dari data geospasial yang dirancang untuk memungkinkan pengguna berinteraksi langsung dengan elemen-elemen yang ada di dalam peta tersebut. Tidak seperti peta statis yang hanya bisa dilihat tanpa respons terhadap aksi pengguna, peta interaktif memberikan pengalaman yang lebih dinamis dan personal. Pengguna dapat melakukan berbagai tindakan seperti memperbesar dan memperkecil peta (zoom in/zoom out), menggeser tampilan, mengeklik simbol atau titik lokasi tertentu untuk menampilkan informasi tambahan, bahkan memfilter data berdasarkan kategori tertentu. Hal ini membuat peta interaktif sangat efektif dalam menyampaikan informasi kompleks dengan cara yang intuitif dan mudah dipahami.
+    </p>
+    <div id="map" class="shadow mb-4"></div>
+  </section>
+
+  
+
+
+</script>
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+  // Inisialisasi peta
+  var map = L.map('map').setView([-7.759, 110.409], 17); // Sesuaikan koordinat tengah
+
+  // Tambahkan base map (OpenStreetMap)
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  // Fungsi styling GeoJSON
+  function styleLayer(color) {
+    return {
+      color: color,
+      weight: 2,
+      fillOpacity: 0.6
+    };
+  }
+
+  // Load file GeoJSON Asrama Putra
+  fetch('Asrama Putra.geojson')
+    .then(res => res.json())
+    .then(data => {
+      L.geoJSON(data, {
+        style: styleLayer('blue'),
+        onEachFeature: (feature, layer) => {
+          if (feature.properties && feature.properties.nama) {
+            layer.bindPopup(`<strong>${feature.properties.nama}</strong>`);
+          }
+        }
+      }).addTo(map);
+    });
+
+  // Load file GeoJSON Asrama Putri
+  fetch('Asrama Putri.geojson')
+    .then(res => res.json())
+    .then(data => {
+      L.geoJSON(data, {
+        style: styleLayer('purple'),
+        onEachFeature: (feature, layer) => {
+          if (feature.properties && feature.properties.nama) {
+            layer.bindPopup(`<strong>${feature.properties.nama}</strong>`);
+          }
+        }
+      }).addTo(map);
+    });
+
+  // Load file GeoJSON BGumum
+  fetch('BGumum.geojson')
+    .then(res => res.json())
+    .then(data => {
+      L.geoJSON(data, {
+        style: styleLayer('green'),
+        onEachFeature: (feature, layer) => {
+          if (feature.properties && feature.properties.nama) {
+            layer.bindPopup(`<strong>${feature.properties.nama}</strong>`);
+          }
+        }
+      }).addTo(map);
+    });
+
+  // Tambahkan Legenda
+  var legend = L.control({position: 'bottomright'});
+
+  legend.onAdd = function (map) {
+    var div = L.DomUtil.create('div', 'info legend');
+    var labels = [
+      {name: 'Asrama Putra', color: 'blue'},
+      {name: 'Asrama Putri', color: 'purple'},
+      {name: 'BGumum', color: 'green'}
+    ];
+
+    div.innerHTML += '<h4>Legenda</h4>';
+    labels.forEach(item => {
+      div.innerHTML +=
+        `<i style="background:${item.color}; width:18px; height:18px; float:left; margin-right:8px; opacity:0.7;"></i>` +
+        `${item.name}<br>`;
+    });
+
+    return div;
+  };
+
+  legend.addTo(map);
+</script>
+
+
+    <!-- FOOTER -->
+  <footer class="text-center py-1">
+    Copyright @Hizbullah Shohibul aqli_117220070
+
+  </script>
+
+</body>
+</html>
+
